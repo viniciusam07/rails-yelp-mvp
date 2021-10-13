@@ -1,5 +1,7 @@
 require 'faker'
 
+puts 'Cleaning database...'
+Restaurant.destroy_all
 10.times do
   Restaurant.create(
     name: Faker::Restaurant.name,
@@ -8,3 +10,4 @@ require 'faker'
     category: Categoriable::CATEGORIES.sample
   )
 end
+puts 'Finished!'
