@@ -32,3 +32,4 @@ Things you may want to cover:
 # 1 - Set a range to review rating
 # 2 - Corrent the category restaurant creating to set the categoriable
 # 3 - Correct the rake concerns
+# 4 - Add containers to align content
