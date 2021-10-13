@@ -7,7 +7,9 @@
 <ul class="list-group">
   <% @restaurant.reviews.each do |review| %>
     <li class="list-group-item">
-      <%= "Comment: #{review.content} |" %> <%= "Rating: #{review.rating}" %>
+      <%= "Comment: #{review.content} |" %>
+      <%= "Rating: #{review.rating}" %>
+      <%= "Date: #{review.created_at}" %>
     </li>
   <% end %>
 </ul>

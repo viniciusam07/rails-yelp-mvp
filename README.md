@@ -26,3 +26,9 @@ Things you may want to cover:
 *https://uikit.lewagon.com/documentation
 *https://guides.rubyonrails.org/active_record_validations.html
 *https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
+
+
+# TO DO
+# 1 - Set a range to review rating
+# 2 - Corrent the category restaurant creating to set the categoriable
+# 3 - Correct the rake concerns
