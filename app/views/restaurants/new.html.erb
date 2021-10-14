@@ -4,8 +4,8 @@
   <%= f.input :name  %>
   <%= f.input :address, rows: 2 %>
   <%= f.input :phone_number, as: :tel%>
-  <%= f.input :category, :collection => %w[chinese italian japanese french belgian] %>
+  <%= f.input :category, collection: Restaurant::CATEGORIES,  as: :radio_buttons %>
   <%= f.submit %>
 <% end %>
 
-<%= link_to "Back", restaurants_path(@restaurants) %>
+<%= link_to "Back", restaurants_path(@restaurants), class: "btn btn-primary" %>
